@@ -9,9 +9,9 @@ This repository contains the evaluation exercise for candidates interested in th
 1. Please get in touch with the [mentors of the project](https://hepsoftwarefoundation.org/gsoc/2026/proposal_JuliaHEP_JetReconstruction.html) to register your interest.
 2. Read the task instructions below carefully.
 3. Fork the repository and work on your solution.
-    - You may make set your fork to *private*, if you wish.
+    - You may set your fork to *private*, if you wish.
 4. Invite the mentors to look at your solution.
-    - We will give you some feedback and advice on if we recommend you to proceed with a proposal for project.
+    - We will give you some feedback and advice on whether we recommend you to proceed with a proposal for project.
 
 ## Task
 
@@ -25,8 +25,11 @@ calculates pairwise Euclidean distances between a large number of points.
 - Your first task is to benchmark the initial serial version of the code, using
 standard Julia tools.
 
-- Comment on the efficiency of this serial version and on any obvious ways to
-improve it.
+- Comment on
+    - how the benchmarking is done and why, with reference to
+    warm-ups, JIT and any other relevant factors;
+    - the efficiency of this serial version and on any obvious ways to
+    improve it.
 
 ### Develop a Parallelisation Strategy
 
@@ -36,17 +39,17 @@ on multiple CPU cores.
 - Make sure you benchmark the performance, as a function of the number of
 threads.
 
-- Please produce a plot of distance measures per second vs. thread count and
+- Please produce a plot of distance-measures-per-second vs. thread count and
 comment on the results you find.
 
 Your parallel version of the benchmarking code should contain simple
 instructions for how to reproduce the results (we will fork it and follow your
-instruction as part of the evaluation).
+instructions as part of the evaluation).
 
 ### Discussion
 
 - Now imagine you now have to port this code to a GPU, using Julia. What would
-be the key things to pay attention to to ensure the performance is optimal.
+be the key things to pay attention to to ensure the performance is optimal?
 
 ## Regarding AI
 
