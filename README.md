@@ -10,7 +10,7 @@ This repository contains the evaluation exercise for candidates interested in th
 2. Read the task instructions below carefully.
 3. Fork the repository and work on your solution.
     - You may set your fork to *private*, if you wish.
-4. Invite the mentors to look at your solution.
+4. Invite the mentors to look at your solution *by 16 March*.
     - We will give you some feedback and advice on whether we recommend you to proceed with a proposal for project.
 
 ## Task
